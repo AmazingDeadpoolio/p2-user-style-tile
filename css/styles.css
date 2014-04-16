@@ -1,0 +1,60 @@
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+	color: #B3BF2E;
+}
+
+h1, h2, h3 {
+	font-family: 'Nixie One', sans-serif;
+	color: #B3BF2E;
+}
+
+em {
+	color: #B6B8B6;
+}
+
+p {
+	font-family: 'Inder', sans-serif;
+}
+
+:root {
+	background-color: #0C610C;
+}
+
+.color-3 {
+	background-color: #B6B8B6;
+}
+
+.color-2 {
+	background-color: #B3BF2E;
+}
+
+.color-1 {
+	background-color: #0C610C;
+}
+
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+
+/* Show Grid
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+*/

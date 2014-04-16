@@ -17,6 +17,10 @@ p {
 	font-family: 'Inder', sans-serif;
 }
 
+a {
+	color: #B6B8B6;
+}
+
 :root {
 	background-color: #0C610C;
 }
@@ -33,6 +37,11 @@ p {
 	background-color: #0C610C;
 }
 
+.pattern-1 {
+	background-image: url(../img/green_cup.png);
+	
+}
+
 
 /* Layout for Style Tile*/
 section {
@@ -42,9 +51,7 @@ section {
 .color-1,
 .color-2,
 .color-3,
-.pattern-1,
-.pattern-2,
-.pattern-3 {
+.pattern-1 {
 	border: 1px solid #000;
 	float: left;
 	margin: 0 10px;
